@@ -33,5 +33,5 @@ actor PhoneBook {
 
   public query func sentMessage(senderPhone : Phone) : async ?Message {
     messageHistory.get(senderPhone);
-  }
+  };
 }
